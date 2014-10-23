@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>Dan Hogan | iOS Developer</title>
+    <link rel="stylesheet" href="css/portfolio.css" media="screen" type="text/css" />
+
+    <link rel="stylesheet" href="css/animations.css" media="screen" type="text/css" />
+    <link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />  <link rel="stylesheet" href="css/icon.css" media="screen" type="text/css" />
+    <meta name="viewport" content="width=device-width", initial-scale-1.0>
+</head>
+<body>
+  <header>
+    <div class="content">
+      <hgroup>
+        <h1>Dan Hogan</h1>
+        <h2>iOS Developer</h2>
+      </hgroup>
+    </div>
+    <div class="overlay"></div>
+  </header>
+  <section class="site">
+    <h3>ABOUT | ME</h3>
+    <img src="images/090c5e7.jpg" alt="Photo of Dan Hogan" class="profile-photo">
+      <p>I live in Cincinnati and I am an iOS Developer with a passion for coding and creating computer software. I recently worked on a mobile app called AlarMock, (released in the App store) and photo library application called Pixure.  I am currently working on a social media app called Proximap I have been practicing Software Development for over a year.  Apart from Objective-C and Swift, I am also familiar with HTML5, CSS, JavaScript, and Python</p>
+
+      <p>I am pivoting from a successful career as a Chemist in the Spirits Industry.  What was missing in all this fun was a personal connection to the analysis I was performing. Enter Software Development. Once I began learning to code, I quickly realized that I could take my programming experience and apply it to build something visual and personally tangible.</p>
+
+      <p>When I'm not working you can usually find me spending time with my son. I am always fascinated by technology and am constantly learning.  I love the logic of software development and the challenge of finding the best tools and algorithms to build new and amazing things.</p>
+  </section>
+  <section id="portfolio" name="portfolio"></section>  
+    <div id="portfoliowrap">
+      <div class="container">
+        <div class="row mt">
+          <h3 class="centered">RECENT | PROJECTS</h3>
+          <div class="col-lg-4 centered si blurb">
+            <a href="https://itunes.apple.com/us/app/alarmock/id918176117?mt=8" target="_blank"> 
+            <h4>ProxiMap</h4>
+            <p>A social media app that allows users to view other users post in a map view.  The user can filter by post subject and message users and send push notifications to other users.</p>
+            </a>
+          </div>
+          <div class="col-lg-4 centered si blurb">
+            <a href="https://itunes.apple.com/us/app/alarmock/id918176117?mt=8" target="_blank"> 
+            <h4>Pixure</h4>
+            <p>An alternative layout for iPhone photo library.  The app allows users to view their camera roll photos in an aesthetically pleasing layout with less margin than the existing iOS photo library.</p>
+            </a>
+          </div>
+          <div class="col-lg-4 centered si blurb">
+            <a href="https://itunes.apple.com/us/app/alarmock/id918176117?mt=8" target="_blank">
+            <h4>AlarMock</h4>
+            <p>An alarm clock that wakes users with mockery. The app loads and caches jokes dynamically with Parse cloud service. The level of mockery increases as the user continues to snooze.</p>
+            </a>
+          </div>          
+        </div><!-- /row -->
+      </div><!-- /container -->
+    </div>
+    </section>
+  <footer>
+    <div class="social__container">   
+      <div class="social__item">
+        <a target="_blank" href="https://www.linkedin.com/in/hogandanhogan" class="social__icon--linkedin"><i class="icon--linkedin"></i></a>
+      </div>
+      <div class="social__item">
+        <a target="_blank" href="http://github.com/hogandanhogan" class="social__icon--github"><i class="icon--github"></i></a>
+      </div>
+    </div>
+    <p>&copy; 2014 Dan Hogan.</p>
+  </footer>
+  <script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
+  <script src="js/index.js"></script>
+  <script src="assets/js/classie.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/smoothscroll.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+    $(window).scroll(function() {
+      $('.si').each(function(){
+      var imagePos = $(this).offset().top;
+
+      var topOfWindow = $(window).scrollTop();
+        if (imagePos < topOfWindow+400) {
+          $(this).addClass("slideUp");
+        }
+      });
+    });
+  </script> 
+</body>
+</html>

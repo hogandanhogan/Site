@@ -1,0 +1,219 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+html {
+  font: 1em/1.5 "Lato", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizelegibility;
+  text-decoration: none;
+}
+
+body {
+  font-size: 1.6em;
+}
+
+header {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  background: url(../images/cincinnati.jpg) center no-repeat;
+  background-size: cover;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: url(../images/cincinnati1.jpg) center no-repeat;
+  background-size: cover;
+  z-index: 0;
+  opacity: 0;
+}
+
+header .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+header h1, header h2 {
+  margin: 0;
+}
+
+header h1 {
+  line-height: 90%;
+}
+
+header h2 {
+  margin-top: 0.5em;
+  line-height: 100%;
+}
+
+header hgroup {
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  display: inline-block;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  border: 5px solid #fff;
+  padding: .5em 3em;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 2;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.site {
+  padding: 2em 0;
+  text-align: center;
+  background-color: black;
+  font-size: .8em;
+  color: #C0C4CC;
+}
+
+.site a:hover {
+  color: #222;
+}
+
+.site h3 {
+  margin-bottom: 20px;
+}
+
+.profile-photo {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+}
+
+footer {
+  background-color: black;
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+/* Portfolio */
+#portfoliowrap{
+  background: black;
+}
+
+.row {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#portfoliowrap h4 {
+  font-size: 18px;
+  font-weight: 700;
+  padding: 0 0 20px 0;
+}
+
+#portfoliowrap h3 {
+  margin-bottom: 30px;
+}
+
+#portfoliowrap .blurb {
+  padding: 20px 30px 30px 30px;
+}
+
+#portfoliowrap a {
+  color: #A899BF;
+  text-decoration: none;
+}
+
+#portfoliowrap p {
+  font-size: 20px;
+  color: #f2f2f2;
+}
+
+/* Footer +plus Wrap */
+
+#contactwrap h3, #aboutwrap h3, #portfoliowrap h3  {
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 1px;  
+}
+#contactwrap h2 {
+  font-size: 28px;
+  letter-spacing: 1px; 
+  margin-top: 0px; 
+}
+
+#contactwrap p {
+  font-size: 20px;
+  color: #f2f2f2;
+  margin: 6px 0 7px 0;
+}
+
+#contactwrap img {
+  text-align: center;
+}
+
+#contactwrap .blacktie  {
+  font-size: 14px;
+}
+
+/* Description Styling / Used in portfolio & Blog images footnotes */
+.desc p {
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#aboutwrap h3, #portfoliowrap h3 {
+  color: #C0C4CC;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 1px;  
+}
+
+#aboutwrap i, #contactwrap i, #portfoliowrap i  {
+  font-size: 8px;
+  padding: 3px;
+
+}
+
+.centered {
+    text-align: center;
+}
+
+.si {
+  visibility: hidden;
+}
+
+.si:hover {
+  background-color: #0e61af;
+  opacity: 10%;
+  border-radius: 5px;
+}
+
+p {
+  margin-bottom: 25px;
+}
+
+footer p {
+  margin-bottom: 0;
+}
